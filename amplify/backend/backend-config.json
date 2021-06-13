@@ -1,0 +1,16 @@
+{
+  "auth": {
+    "venturecf11e2f0a": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  },
+  "storage": {
+    "cloudv": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation"
+    }
+  }
+}
